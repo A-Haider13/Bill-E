@@ -1,0 +1,76 @@
+/* Add styling for the form page */
+.form-page {
+  background: linear-gradient(180deg, #5ECC80 0%, #00AB6A 100%);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin);
+  color: white;
+}
+
+/* Style the form container on the form page */
+.question-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Style the form elements on the form page */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add styling for the intro page */
+.intro-page {
+  background: linear-gradient(180deg, #5ECC80 0%, #00AB6A 100%);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin);
+  color: white;
+}
+
+/* Add styling for the form page */
+.form-page {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
